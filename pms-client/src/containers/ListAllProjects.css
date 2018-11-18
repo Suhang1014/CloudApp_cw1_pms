@@ -1,0 +1,25 @@
+.ListALLProjects .lander {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.ListALLProjects .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.ListALLProjects .lander p {
+    color: #999;
+}
+
+.ListALLProjects .projects h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ListALLProjects .projects p {
+    color: #666;
+}

@@ -1,0 +1,66 @@
+.Home .lander {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.Home .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.Home .lander p {
+    color: #999;
+}
+
+.Home .projects h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 1.5;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.Home .projects p {
+    color: #666;
+}
+
+.project-search-wrapper{
+    display: flex;
+}
+@media all and (min-width: 720px){
+    .project-search-wrapper > .open>.dropdown-menu{
+        display: flex !important;
+        opacity: 1 !important;
+        width: 290px;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 720px){
+    .project-search-wrapper.open>.dropdown-menu{
+        display: block !important;
+        opacity: 1 !important;
+    }
+}
+
+.project-search-wrapper.open.dropdown-menu{
+    opacity: 0 !important;
+    width: 0px;
+    margin-left: 4px !important;
+    top: 100% !important;
+    transition: all 300ms;
+}
+
+#searchProjects{
+    width: 25%;
+    margin: 0 0 0 36%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#searchProjects:focus{
+    color: #044573;
+}
+#searchProjects::placeholder{
+    color: #044573;
+}

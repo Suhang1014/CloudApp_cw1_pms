@@ -1,0 +1,5 @@
+.disabled-card{
+    pointer-events: none;
+    opacity: 0.85;
+    background-color: lightgrey;
+}

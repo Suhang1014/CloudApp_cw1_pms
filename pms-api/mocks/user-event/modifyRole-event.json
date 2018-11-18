@@ -1,0 +1,6 @@
+{
+  "body": "{\"Role\":\"Manager\"}",
+  "pathParameters": {
+    "id": "us-east-2:40e41ce6-b3fc-4a31-bfe1-f33a321c3177"
+  }
+}

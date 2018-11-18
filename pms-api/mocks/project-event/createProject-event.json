@@ -1,0 +1,8 @@
+{
+  "body": "{\"ProjectStatus\":\"Pending\",\"Content\":\"Create project test 1\",\"Attachment\":\"hello.jpg\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}

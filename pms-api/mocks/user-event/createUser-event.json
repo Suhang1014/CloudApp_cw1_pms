@@ -1,0 +1,8 @@
+{
+  "body": "{\"Username\":\"gujiansu@hotmail.com\",\"Email\":\"gujiansu@hotmail.com\", \"Role\":\"Manager\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "us-east-2:bd486e42-fdbd-430a-b013-1b60f7e30dab"
+    }
+  }
+}

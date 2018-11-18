@@ -1,0 +1,11 @@
+{
+  "body": "{\"Content\":\"Update project content test22\",\"Attachment\":\"update.jpg\",\"ProjectStatus\":\"Completed\"}",
+  "pathParameters": {
+    "id": "57231f90-e9a7-11e8-96ef-595a98f36682"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "us-east-2:adaaaacd-af0a-4e27-94c9-4ea6aa31e773"
+    }
+  }
+}

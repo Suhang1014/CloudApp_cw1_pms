@@ -1,0 +1,135 @@
+# NOTE: update this with your service name
+service: pms-api
+
+# Use the serverless-webpack plugin to transpile ES6
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+# serverless-webpack configuration
+# Enable auto-packing of external modules
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: prod
+  region: us-east-2
+  # To load environment variables externally
+  # rename env.example to env.yml and uncomment
+  # the following line. Also, make sure to not
+  # commit your env.yml.
+  #
+  #environment: ${file(env.yml):${self:provider.stage}}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:us-east-2:*:*"
+    - Effect: Allow
+      Action:
+        - cognito-idp:AdminGetUser
+      Resource: "arn:aws:cognito-idp:us-east-2:*:*"
+
+
+functions:
+  # Project functions
+  createProject:
+    handler: project_api/createProject.main
+    events:
+    - http:
+        path: projects
+        method: post
+        cors: true
+        authorizer: aws_iam
+
+  getOneProject:
+    handler: project_api/getOneProject.main
+    events:
+      - http:
+          path: projects/{id}
+          method: get
+          cors: true
+          authorizer: aws_iam
+
+  getAllProjects:
+    handler: project_api/getAllProjects.main
+    events:
+    - http:
+        path: projects/all
+        method: get
+        cors: true
+        authorizer: aws_iam
+
+  getProjectsByUserId:
+    handler: project_api/getProjectsByUserId.main
+    events:
+      - http:
+          path: projects
+          method: get
+          cors: true
+          authorizer: aws_iam
+
+  updateProject:
+    handler: project_api/updateProject.main
+    events:
+      - http:
+          path: projects/{id}
+          method: put
+          cors: true
+          authorizer: aws_iam
+
+  deleteProject:
+    handler: project_api/deleteProject.main
+    events:
+      - http:
+          path: projects/{id}
+          method: delete
+          cors: true
+          authorizer: aws_iam
+
+# User Functions
+  getAllUser:
+    handler: user_api/getAllUser.main
+    events:
+      - http:
+          path: users/all
+          method: get
+          cors: true
+          authorizer: aws_iam
+
+  getOneUser:
+    handler: user_api/getOneUser.main
+    events:
+      - http:
+          path: users/{id}
+          method: get
+          cors: true
+          authorizer: aws_iam
+
+  createUser:
+    handler: user_api/createUser.main
+    events:
+      - http:
+          path: users
+          method: post
+          cors: true
+          authorizer: aws_iam
+
+  modifyRole:
+    handler: user_api/modifyRole.main
+    events:
+      - http:
+          path: users/{id}
+          method: put
+          cors: true
+          authorizer: aws_iam

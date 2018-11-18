@@ -1,0 +1,70 @@
+.card{
+    box-shadow: 3px 4px 7px 0px lightgrey;
+}
+
+.user-card{
+    text-align: center;
+    font-weight: bold;
+
+}
+.user-card:hover{
+    background-color: #044573 !important;
+
+    transform: scale(1.05);
+    color: white;
+}
+
+.user-card{
+    transition: all 150ms;
+    margin-bottom: 25px;
+}
+
+#searchUsers{
+    width: 25%;
+    margin: 0 0 0 36%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#searchUsers:focus{
+    color: #044573;
+}
+#searchUsers::placeholder{
+    color: #044573;
+}
+h3.card-title {
+    color: orange;
+    height: 65px;
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+
+.card-text-content{
+    height: 115px;
+}
+
+
+#user-full-details{
+    margin-bottom: 15px;
+}
+
+.card-text.email{
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    margin: 0 auto;
+    text-align: center
+}
+#user-edit{
+    margin-bottom: 15px;
+}
+.card-image-top{
+    margin-top: 10px;
+}
