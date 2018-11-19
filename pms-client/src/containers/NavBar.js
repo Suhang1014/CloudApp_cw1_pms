@@ -4,6 +4,7 @@ import {LinkContainer} from "react-router-bootstrap";
 import {Fragment} from "react";
 import React from "react";
 
+
 const NavBar = (props) => {
     return (
         !props.isAuthenticating &&

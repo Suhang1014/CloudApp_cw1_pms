@@ -19,19 +19,6 @@
     margin-bottom: 25px;
 }
 
-#searchUsers{
-    width: 25%;
-    margin: 0 0 0 36%;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#searchUsers:focus{
-    color: #044573;
-}
-#searchUsers::placeholder{
-    color: #044573;
-}
 h3.card-title {
     color: orange;
     height: 65px;
@@ -62,7 +49,7 @@ h3.card-title {
     margin: 0 auto;
     text-align: center
 }
-#user-edit{
+#modify-role{
     margin-bottom: 15px;
 }
 .card-image-top{

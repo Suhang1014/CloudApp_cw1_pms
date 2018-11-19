@@ -1,0 +1,13 @@
+#usersSearch{
+    width: 25%;
+    margin: 0 0 0 36%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#usersSearch:focus{
+    color: #044573;
+}
+#usersSearch::placeholder{
+    color: #044573;
+}

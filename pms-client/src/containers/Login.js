@@ -40,12 +40,16 @@ export default class Login extends Component {
             const currentUserId = userFullInfo.UserId;
             sessionStorage.setItem("currentUserRole", currentUserRole);
             sessionStorage.setItem("currentUserId", currentUserId);
+            window.location.reload();
             this.props.userHasAuthenticated(true);
         } catch (e) {
             alert(e.message);
             this.setState({ isLoading: false });
         }
+
     }
+
+
 
 
     render() {

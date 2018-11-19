@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { ListGroup, Glyphicon} from "react-bootstrap";
+import { ListGroup, FormControl} from "react-bootstrap";
 import { Button } from 'react-bootstrap';
 import { API } from "aws-amplify";
 import UserList from './UserList';
@@ -10,7 +10,7 @@ export default class ListAllUsers extends Component {
 
         this.state = {
             loaded: false,
-            currentSearchPhrase: "",
+            SearchKeywords: "",
             initialUsers: [],
             users: []
         }
@@ -41,22 +41,22 @@ export default class ListAllUsers extends Component {
         this.search.value = "";
         this.setState({
             users: [].concat(this.state.initialUsers),
-            currentSearchPhrase: ""
+            SearchKeywords: ""
         })
     }
     async handleSearch(event) {
         let value = event.target.value;
         this.setState({
-            currentSearchPhrase: value
+            SearchKeywords: value
         });
 
         await this.setState({
             loaded: false
         });
         if (event) {
-            let newUsers = this.state.initialUsers.filter(p => p.UserName.toLowerCase().indexOf(value.toLowerCase()) !== -1);
+            let newUsersContainer = this.state.initialUsers.filter(u => u.UserName.toLowerCase().indexOf(value.toLowerCase()) !== -1);
             this.setState({
-                users: [].concat(newUsers),
+                users: [].concat(newUsersContainer),
                 loaded: true
             })
         }
@@ -69,10 +69,15 @@ export default class ListAllUsers extends Component {
         return (
             <Fragment>
                 <Fragment>
-                    <div style={{ marginBottom: "5%" }}>
-                        <label htmlFor="searchUsers">Search users</label>
+                    <div className="SearchUserWrapper">
+                        <label>Search users</label>
                         <div style={{ display: "flex" }}>
-                            <input type="text" ref={input => this.search = input} onChange={this.handleSearch} className="form-control" id="searchUsers" aria-describedby="searchUsers"></input>
+                            <FormControl
+                                type="text"
+                                value={this.state.value}
+                                placeholder="Enter text"
+                                onChange={this.handleSearch}
+                            />
                             <Button onClick={this.clearFilters} bsSize="small" bsStyle="primary">
                                 Clear
                             </Button>
@@ -80,16 +85,11 @@ export default class ListAllUsers extends Component {
                     </div>
                 </Fragment>
                 <hr />
-                {this.state.loaded ?
-                    this.state.users.length > 0
+                {this.state.users.length > 0
                         ?
                         <UserList users={this.state.users}></UserList>
                         :
                         <h3>No users found</h3>
-                    :
-                    <Fragment>
-                        <Glyphicon glyph="refresh" className="spinning" />
-                    </Fragment>
                 }
             </Fragment>
         );

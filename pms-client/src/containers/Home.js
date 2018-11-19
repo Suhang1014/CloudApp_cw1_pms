@@ -34,19 +34,19 @@ export default class Home extends Component {
         this.setState({ isLoading: false });
     }
 
-    //获得该用户创建的项目
+    //Get the projects that create by current user
     projects() {
         return API.get("projects", "/projects");
     }
 
-    //按状态过滤项目
+    //Filter projects by status
     handleSelect(event) {
         this.setState({
             projects: [].concat(this.state.initialProjects.filter(p => p.ProjectStatus === event))
         })
     }
 
-    // 未登录时
+    // render the page when user has not login
     renderLander() {
         return (
             <div className="lander">
@@ -56,13 +56,14 @@ export default class Home extends Component {
         );
     }
 
+    // Render the filter dropdown button and the Projects panel
     renderProjects() {
         return (
             <Fragment>
                 <Fragment>
                     <div style={{ marginBottom: "5%" }}>
                         <label htmlFor="projectsFilter">Filter Projects by Status</label>
-                        <div className="project-search-wrapper">
+                        <div className="project-filter-wrapper">
                             <DropdownButton bsStyle="success" id="statusdropdown" title="Status" onSelect={this.handleSelect} >
                                 <MenuItem eventKey="Active" key="1">Active</MenuItem>
                                 <MenuItem eventKey="Pending" key="2">Pending</MenuItem>
@@ -87,6 +88,7 @@ export default class Home extends Component {
         );
     }
 
+    // Render page according to authenticated status
     render() {
         return (
             <div className="Home">

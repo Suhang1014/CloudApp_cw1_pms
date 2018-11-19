@@ -24,7 +24,7 @@
     color: #666;
 }
 
-.project-search-wrapper{
+.project-filter-wrapper{
     display: flex;
 }
 @media all and (min-width: 720px){
@@ -49,18 +49,4 @@
     margin-left: 4px !important;
     top: 100% !important;
     transition: all 300ms;
-}
-
-#searchProjects{
-    width: 25%;
-    margin: 0 0 0 36%;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#searchProjects:focus{
-    color: #044573;
-}
-#searchProjects::placeholder{
-    color: #044573;
 }

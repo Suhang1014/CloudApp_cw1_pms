@@ -5,12 +5,10 @@ export async function main(event, context) {
     const data = JSON.parse(event.body);
     const params = {
         TableName: "users_information",
-        Key: {
-            UserId: event.pathParameters.id,
-        },
+        Key: {UserId: event.pathParameters.id},
         UpdateExpression: "SET Role = :Role",
         ExpressionAttributeValues: {
-           ":Role": data.Role || "Developer"
+           ":Role": data.Role || "Developer",
         },
         ReturnValues: "ALL_NEW"
     };

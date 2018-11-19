@@ -51,6 +51,7 @@ class App extends Component {
         sessionStorage.clear();
         this.userHasAuthenticated(false);
         this.props.history.push("/login");
+        window.location.reload();
     }
     userHasAuthenticated = authenticated => {
         this.setState({ isAuthenticated: authenticated });
@@ -64,12 +65,7 @@ class App extends Component {
             userHasAuthenticated: this.userHasAuthenticated
         };
         return (
-            <div className="App">
-                {this.state.isAuthenticating ?
-                    <Fragment>
-                        <Glyphicon glyph="refresh" className="spinning" />
-                    </Fragment>
-                    :
+            <div className="App container">
                     <Fragment>
                         <NavBar
                             handleLogOut={this.handleLogOut}
@@ -80,7 +76,6 @@ class App extends Component {
                         />
                         <Routes childProps={childProps} />
                     </Fragment>
-                }
             </div>
         );
     }
