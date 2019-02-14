@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3574bc41-5f94-4247-b900-9f2c32ad22ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pms-client/src/containers/ListAllUsers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-api/user_api/modifyRole.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-api/user_api/modifyRole.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pms-api/mocks/user-event/createUser-event.json" beforeDir="false" afterPath="$PROJECT_DIR$/pms-api/mocks/user-event/createUser-event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pms-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pms-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/ListAllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/ListAllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/UserCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/UserCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/UserCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/UserCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pms-client/src/containers/WelcomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/pms-client/src/containers/WelcomePage.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,6 +20,7 @@
     <session id="-1700301625">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -35,16 +28,16 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="8" />
-          <entry key="js" value="23" />
-          <entry key="json" value="13" />
+          <entry key="js" value="24" />
+          <entry key="json" value="14" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="23" />
+          <entry key="JSON" value="14" />
+          <entry key="JavaScript" value="24" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -52,13 +45,13 @@
         <counts>
           <entry key="css" value="29" />
           <entry key="js" value="568" />
-          <entry key="json" value="19" />
+          <entry key="json" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="29" />
-          <entry key="JSON" value="19" />
+          <entry key="JSON" value="171" />
           <entry key="JavaScript" value="568" />
         </counts>
       </usages-collector>
@@ -69,17 +62,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pms-api/serverless.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+            <state relative-caret-position="1127">
+              <caret line="127" column="12" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pms-client/src/containers/Signup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-621">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pms-api/user_api/modifyRole.js">
+        <entry file="file://$PROJECT_DIR$/pms-api/mocks/user-event/createUser-event.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="23">
+              <caret line="1" column="108" selection-start-line="1" selection-start-column="108" selection-end-line="1" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pms-api/user_api/createUser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -88,31 +101,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pms-api/project_api/updateProject.js">
+        <entry file="file://$PROJECT_DIR$/pms-client/src/containers/NavBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="-838">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pms-api/mocks/project-event/updateProject-event.json">
+        <entry file="file://$PROJECT_DIR$/pms-client/src/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="621">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pms-client/package.json">
+        <entry file="file://$PROJECT_DIR$/pms-client/src/containers/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="180" selection-start-line="21" selection-start-column="156" selection-end-line="21" selection-end-column="183" />
+            <state relative-caret-position="428">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +167,7 @@
         <option value="$PROJECT_DIR$/pms-client/src/containers/WelcomePage.css" />
         <option value="$PROJECT_DIR$/pms-client/src/containers/WelcomePage.js" />
         <option value="$PROJECT_DIR$/pms-client/package.json" />
+        <option value="$PROJECT_DIR$/pms-api/mocks/user-event/createUser-event.json" />
       </list>
     </option>
   </component>
@@ -1312,9 +1332,7 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/preset-env/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/preset-react/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/preset-typescript/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/runtime-corejs2/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/runtime/node_modules/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/runtime/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/template/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/@babel/traverse/node_modules/debug/package.json" />
@@ -1393,7 +1411,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/anymatch/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/anymatch/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/anymatch/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/anymatch/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/anymatch/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/append-transform/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/aproba/package.json" />
@@ -1431,9 +1448,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/autoprefixer/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/autoprefixer/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/aws-amplify/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/aws-sdk/node_modules/ieee754/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/aws-sdk/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/aws-sdk/node_modules/sax/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/aws-sdk/node_modules/url/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/aws-sdk/node_modules/uuid/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/aws-sdk/package.json" />
@@ -1469,13 +1483,11 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-preset-react-app/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-register/node_modules/babel-core/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-register/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/babel-register/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-register/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-runtime/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-template/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-traverse/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-traverse/node_modules/globals/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/babel-traverse/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-traverse/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-types/node_modules/to-fast-properties/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/babel-types/package.json" />
@@ -1497,7 +1509,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/bn.js/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/body-parser/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/body-parser/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/body-parser/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/body-parser/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/bonjour/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/boolbase/package.json" />
@@ -1588,7 +1599,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/component-emitter/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/compressible/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/compression/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/compression/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/compression/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/concat-map/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/concat-stream/package.json" />
@@ -1678,7 +1688,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/detect-newline/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/detect-node/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/detect-port-alt/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/detect-port-alt/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/detect-port-alt/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/diff/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/diffie-hellman/package.json" />
@@ -1690,8 +1699,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/dns-txt/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/doctrine/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/dom-converter/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/dom-helpers/node_modules/@babel/runtime/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/dom-helpers/node_modules/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/dom-helpers/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/dom-serializer/package.json" />
@@ -1726,12 +1733,10 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/escodegen/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-config-react-app/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-import-resolver-node/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-import-resolver-node/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-import-resolver-node/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-loader/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-module-utils/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-module-utils/node_modules/find-up/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-module-utils/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-module-utils/node_modules/path-exists/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-module-utils/node_modules/pkg-dir/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-module-utils/package.json" />
@@ -1740,7 +1745,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/doctrine/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/load-json-file/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/parse-json/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/path-type/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/eslint-plugin-import/node_modules/read-pkg-up/package.json" />
@@ -1777,7 +1781,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/expect/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/express/node_modules/array-flatten/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/express/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/express/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/express/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/extend-shallow/package.json" />
@@ -1816,7 +1819,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/fast-glob/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fast-glob/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fast-glob/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/fast-glob/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fast-glob/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fast-json-stable-stringify/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fast-levenshtein/package.json" />
@@ -1833,15 +1835,12 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/fill-range/node_modules/isobject/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fill-range/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/finalhandler/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/finalhandler/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/finalhandler/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/flat-cache/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/flatten/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/flush-write-stream/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/follow-redirects/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/follow-redirects/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/follow-redirects/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/for-in/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/for-own/package.json" />
@@ -1872,7 +1871,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/fork-ts-checker-webpack-plugin-alt/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fork-ts-checker-webpack-plugin-alt/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fork-ts-checker-webpack-plugin-alt/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/fork-ts-checker-webpack-plugin-alt/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/fork-ts-checker-webpack-plugin-alt/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/form-data/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/forwarded/package.json" />
@@ -2050,7 +2048,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/http-proxy-middleware/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/http-proxy-middleware/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/http-proxy-middleware/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/http-proxy-middleware/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/http-proxy-middleware/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/http-proxy/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/http-signature/package.json" />
@@ -2142,7 +2139,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-changed-files/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-config/node_modules/babel-core/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-config/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/jest-config/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-config/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-diff/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-docblock/package.json" />
@@ -2170,7 +2166,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-runner/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-runtime/node_modules/babel-core/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-runtime/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/jest-runtime/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-runtime/node_modules/strip-bom/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-runtime/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/jest-serializer/package.json" />
@@ -2293,7 +2288,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/no-case/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/node-forge/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/node-int64/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/node-libs-browser/node_modules/punycode/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/node-libs-browser/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/node-notifier/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/node-releases/package.json" />
@@ -2371,7 +2365,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/pnp-webpack-plugin/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/portfinder/node_modules/async/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/portfinder/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/portfinder/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/portfinder/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/posix-character-classes/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/postcss-attribute-case-insensitive/node_modules/postcss/package.json" />
@@ -2623,8 +2616,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/react-router-bootstrap/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/react-router-dom/node_modules/warning/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/react-router-dom/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/react-router/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/react-router/node_modules/path-to-regexp/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/react-router/node_modules/warning/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/react-router/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/react-scripts/package.json" />
@@ -2661,7 +2652,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/readdirp/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/readdirp/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/readdirp/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/readdirp/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/readdirp/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/realpath-native/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/recursive-readdir/package.json" />
@@ -2757,7 +2747,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/sane/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sane/node_modules/micromatch/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sane/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/sane/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sane/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sass-loader/node_modules/clone-deep/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sass-loader/node_modules/for-own/package.json" />
@@ -2775,11 +2764,9 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/send/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/send/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/send/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/send/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/serialize-javascript/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/serve-index/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/serve-index/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/serve-index/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/serve-static/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/set-blocking/package.json" />
@@ -2811,10 +2798,8 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/snapdragon/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/snapdragon/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/snapdragon/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/snapdragon/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sockjs-client/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/sockjs-client/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sockjs-client/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sockjs/examples/echo/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sockjs/examples/express-3.x/package.json" />
@@ -2834,10 +2819,8 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/spdx-expression-parse/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/spdx-license-ids/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/spdy-transport/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/spdy-transport/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/spdy-transport/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/spdy/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/spdy/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/spdy/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/split-string/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/sprintf-js/package.json" />
@@ -2958,7 +2941,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/urix/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/url-loader/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/url-parse/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/url/node_modules/punycode/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/url/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/use/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/util-deprecate/package.json" />
@@ -3032,7 +3014,6 @@
       <path value="$PROJECT_DIR$/pms-client/node_modules/webpack/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/webpack/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/webpack/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/pms-client/node_modules/webpack/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/webpack/node_modules/schema-utils/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/webpack/package.json" />
       <path value="$PROJECT_DIR$/pms-client/node_modules/websocket-driver/package.json" />
@@ -3084,9 +3065,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="2301" />
-    <option name="height" value="1600" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -3110,6 +3090,12 @@
               <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudApp_cw1_pms" type="462c0819:PsiDirectoryNode" />
               <item name="pms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudApp_cw1_pms" type="462c0819:PsiDirectoryNode" />
+              <item name="pms-api" type="462c0819:PsiDirectoryNode" />
               <item name="mocks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3118,6 +3104,13 @@
               <item name="pms-api" type="462c0819:PsiDirectoryNode" />
               <item name="mocks" type="462c0819:PsiDirectoryNode" />
               <item name="project-event" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudApp_cw1_pms" type="462c0819:PsiDirectoryNode" />
+              <item name="pms-api" type="462c0819:PsiDirectoryNode" />
+              <item name="mocks" type="462c0819:PsiDirectoryNode" />
+              <item name="user-event" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
@@ -3135,6 +3128,19 @@
               <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
               <item name="CloudApp_cw1_pms" type="462c0819:PsiDirectoryNode" />
               <item name="pms-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudApp_cw1_pms" type="462c0819:PsiDirectoryNode" />
+              <item name="pms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CloudApp_cw1_pms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CloudApp_cw1_pms" type="462c0819:PsiDirectoryNode" />
+              <item name="pms-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3177,19 +3183,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13444000" />
+    <option name="totallyTimeSpent" value="14759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="2301" height="1600" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15526316" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -3197,6 +3199,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -3285,8 +3291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pms-client/src/containers/NavBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-838">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
@@ -3300,13 +3306,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pms-client/src/containers/NavBar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pms-client/src/containers/NavBar.css" />
     <entry file="file://$PROJECT_DIR$/pms-client/src/containers/ListAllUsers.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -3333,8 +3333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pms-client/src/containers/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="428">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -3374,8 +3374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pms-client/src/containers/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="70" column="84" lean-forward="true" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="84" />
+        <state relative-caret-position="-621">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -3418,8 +3418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pms-api/serverless.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="122" column="21" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+        <state relative-caret-position="1127">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -3447,6 +3447,22 @@
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms-api/user_api/createUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pms-api/mocks/user-event/createUser-event.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="108" selection-start-line="1" selection-start-column="108" selection-end-line="1" selection-end-column="108" />
         </state>
       </provider>
     </entry>

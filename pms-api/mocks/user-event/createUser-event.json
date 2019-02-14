@@ -1,8 +1,8 @@
 {
-  "body": "{\"Username\":\"gujiansu@hotmail.com\",\"Email\":\"gujiansu@hotmail.com\", \"Role\":\"Manager\"}",
+  "body": "{\"Username\":\"su.hang4514@gmail.com\",\"Email\":\"su.hang4514@gmail.com\", \"Role\":\"Developer\"}",
   "requestContext": {
     "identity": {
-      "cognitoIdentityId": "us-east-2:bd486e42-fdbd-430a-b013-1b60f7e30dab"
+      "cognitoIdentityId": "us-east-2:0d65e615-d85d-42ec-ad57-249b7ff58261"
     }
   }
 }
